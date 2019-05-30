@@ -2733,4 +2733,4 @@ reaction2.on("collect", r => {
 
 
 
-client.login(Bot_TOKEN);       
+client.login(process.env.Bot_TOKEN);       
